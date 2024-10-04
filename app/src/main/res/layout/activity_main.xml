@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:orientation="vertical"
+    android:background="@drawable/noon">
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:text="Humidity"
+        android:gravity="center"
+        android:fontFamily="@font/pacifico"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        />
+    <com.jjoe64.graphview.GraphView
+        android:layout_width = "match_parent"
+        android:layout_height = "200dip"
+        android:id = "@+id/graph" />
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:text="Temperature"
+        android:gravity="center"
+        android:fontFamily="@font/pacifico"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        /> <com.jjoe64.graphview.GraphView
+    android:layout_width = "match_parent"
+    android:layout_height = "200dip"
+    android:id = "@+id/graphT" />
+
+    <Button
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="80dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="show"
+        android:text="Start"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/white"/>
+
+
+
+</LinearLayout>
+

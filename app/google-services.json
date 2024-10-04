@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "373609462962",
+    "project_id": "iot-project-eff5a",
+    "storage_bucket": "iot-project-eff5a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:373609462962:android:1cdc294bd5ca3c12271dab",
+        "android_client_info": {
+          "package_name": "com.example.iot"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "373609462962-52rp3n1ipk4dphkb8mtig49kanlfrcpb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDNRhAalgwkU1Hoq9q2jKbFGgNtzuMWJbM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "373609462962-52rp3n1ipk4dphkb8mtig49kanlfrcpb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
