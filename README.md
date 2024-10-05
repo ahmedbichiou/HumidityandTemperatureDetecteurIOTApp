@@ -33,8 +33,3 @@ Le système fonctionne comme suit :
 - **Simplicité d'Intégration** : Facile à mettre en place et à configurer grâce à l'utilisation de Raspbian et Google Firestore.
 - **Polyvalence** : Peut être utilisé dans divers environnements, tels que les maisons, les serres, ou les bureaux.
 
-## Acknowledgments
-Un grand merci à tous ceux qui ont contribué au développement de ce projet. Leur expertise et leur soutien ont été essentiels à la réalisation de ce système.
-
-## License
-Ce projet est sous licence MIT. Consultez le fichier [LICENSE](LICENSE) pour plus d'informations.
